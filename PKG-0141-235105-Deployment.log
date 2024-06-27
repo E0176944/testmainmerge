@@ -1,0 +1,40 @@
+--Deployment Package--
+Package:PKG-0141
+Package Type:Migration
+Start Time:07:05:2024 03:48:45 PM
+Package Status:In Deployment
+VaultId:37433
+Deployed By:E0494713@sb-sanofi.com
+
+--Deployment Steps--
+07:05:2024 03:48:45 PM
+STEP 00010 material_sourcefileupload1__c
+ REVIEW deployment_status__v:"Verified"
+ EXECUTE "RECREATE Docfielddependency material_sourcefileupload1__c"
+ SUCCESS "[SUCCESS] RECREATE Docfielddependency material_sourcefileupload1__c"
+ SUMMARY "OK", warnings:0, failures:0, exceptions:0, components_affected:1, data_successes:0, data_failures:0, execution_time:915
+
+07:05:2024 03:48:46 PM
+STEP 00020 material_sourcefileupload2__c
+ REVIEW deployment_status__v:"Verified"
+ EXECUTE "RECREATE Docfielddependency material_sourcefileupload2__c"
+ SUCCESS "[SUCCESS] RECREATE Docfielddependency material_sourcefileupload2__c"
+ SUMMARY "OK", warnings:0, failures:0, exceptions:0, components_affected:1, data_successes:0, data_failures:0, execution_time:849
+
+07:05:2024 03:48:47 PM
+STEP 00030 material_sourcefileupload__c
+ REVIEW deployment_status__v:"Verified"
+ EXECUTE "RECREATE Docfielddependency material_sourcefileupload__c"
+ SUCCESS "[SUCCESS] RECREATE Docfielddependency material_sourcefileupload__c"
+ SUMMARY "OK", warnings:0, failures:0, exceptions:0, components_affected:1, data_successes:0, data_failures:0, execution_time:898
+
+--Deployment Summary--
+End Time:07:05:2024 03:48:48 PM
+Total Steps:3
+Deployed:3
+Deployed with warnings:0
+Deployed with failures:0
+Deployed with error:0
+Failed:0
+Skipped:0
+Package Status:Deployed
